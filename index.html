@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="card my-3">
+			<div class="card-body">
+				<h5 class="card-title">Name:</h5>
+				<form class="w-100">
+					<div class="form-row justify-content-start my-3">
+						<div class="col-12 col-md-10 mb-2 mb-md-0">
+							<input type="text" class="form-control name" placeholder="Player's name">
+						</div>
+						<div class="col-12 col-md-2">
+							<button class="btn btn-outline-secondary" type="submit" id="Enter">Enter</button>
+						</div>
+					</div>
+				</form>
+				<div class="row">
+					<div class="col-6">
+						<strong>Player 1: </strong>
+						<span class="player1name"></span>
+					</div>
+					<div class="col-6">
+						<strong>Player 2: </strong>
+						<span class="player2name"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card text-center">
+			<div class="card-body">
+				<div class="card-text main-display">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
